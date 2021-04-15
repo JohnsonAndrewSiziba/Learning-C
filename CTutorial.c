@@ -15,7 +15,7 @@ int main() {
 
     char firstLeter = 'D'; //character
 
-    int age = 35;
+    int age = 25;
 
     long int superBig = -3676385872387;
 
@@ -26,6 +26,16 @@ int main() {
     printf("\n");
 
     printf("This will print to screen. \n\n");
+
+    printf("I am %d years old. \n\n", age); //d for printing out integers
+
+    printf("Long %ld \n\n", superBig);
+
+    printf("Pi %.5f \n\n", piValue);
+
+    printf("Double %.15f \n\n", reallyBigPi); // also use f for double
+
+    printf("Char: %c \n\n", firstLeter);
 
 }
 
